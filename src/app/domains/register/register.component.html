@@ -1,1 +1,36 @@
-<p>register works!</p>
+<div class="register-container">
+  <h2>Get started</h2>
+  <form class="register-form">
+    <mat-form-field class="firstname">
+      <mat-label>Firstname</mat-label>
+      <input matInput />
+    </mat-form-field>
+
+    <mat-form-field class="lastname">
+      <mat-label>Lastname</mat-label>
+      <input matInput />
+    </mat-form-field>
+
+    <mat-form-field class="email">
+      <mat-label>email</mat-label>
+      <input matInput />
+    </mat-form-field>
+
+    <mat-form-field class="password">
+      <mat-label>Password</mat-label>
+      <input matInput type="password" />
+    </mat-form-field>
+    <div class="buttons">
+      <button
+        type="submit"
+        class="secondary-button"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+        [routerLink]="['']"
+      >
+        Register my profile
+      </button>
+      <a [routerLink]="['']">Back to login</a>
+    </div>
+  </form>
+</div>

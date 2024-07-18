@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+.register-container {
+    background-color: rgba(111, 229, 248, 0.4);
+    max-width: 600px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+}
+
+h2 {
+    font-family: "Alfa Slab One", serif;
+    color: aliceblue;
+}
+.register-form {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 350px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.secondary-button{
+    border-radius: 20px;
+    height: 35px;
+    background-color: #020877;
+    color: aliceblue;
+}
